@@ -2,3 +2,7 @@
 /.vscode
 /.phpunit.cache
 .phpunit.result.cache
+*
+!.gitignore
+.phpunit.result.cache
+
