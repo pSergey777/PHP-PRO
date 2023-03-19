@@ -1,0 +1,41 @@
+# GET HTTP://localhost:8001/users/show?username=starscy
+
+
+# POST HTTP://localhost:8001/posts/create
+
+# {
+#     "author_uuid": "98a342bb-877c-432f-88b1-8f864ffc37f1",
+#     "text": "s8 feb",
+#     "title": "fbx"
+# }
+
+# POST HTTP://localhost:8001/users/create
+
+# {
+
+# }
+
+# POST HTTP://localhost:8001/posts/comment
+
+# {
+#     "post_uuid": "fedd632c-ef1a-4ccc-b2ce-4b6500d73dc9",
+#     "author_uuid": "98a342bb-877c-432f-88b1-8f864ffc37f1",
+#     "text": "Test Comment!",
+# }
+
+# POST HTTP://localhost:8001/users/create
+
+# {
+#     "username":"testUserStasd",
+#     "first_name":"TestVadim",
+#     "second_name":"Robot"
+# }
+
+POST HTTP://localhost:8001/posts/fav
+
+{
+    "author_uuid":"4469d573-f851-4b93-a7a1-b1d43fd235ea",
+    "post_uuid":"715a1b0a-a64b-477d-8c48-b97af81e2380"
+}
+// DELETE HTTP://localhost:8001/posts?uuid=311c3a97-8d6f-4334-b0e1-3d01362cdb12
+
