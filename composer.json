@@ -1,0 +1,36 @@
+{
+    "name": "starscy/project",
+    "description": "php pro course",
+    "autoload": {
+        "psr-4": {
+            "Starscy\\Project\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Starscy\\Project\\UnitTests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "starscy",
+            "email": "starscy@rambler.ru"
+        }
+    ],
+    "require": {
+        "symfony/polyfill-uuid": "^1.27",
+        "monolog/monolog": "^3.3",
+        "psr/container": "^2.0",
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/console": "^6.2",
+        "fakerphp/faker": "^1.21"        
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5",
+        "phpunit/php-code-coverage": "^9.2"    
+    },
+    "scripts": {
+        "test": "phpunit tests --testdox --colors"
+    }
+}
